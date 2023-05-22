@@ -1,78 +1,162 @@
-body{
-    width: 100%;
-    height: 100vh;
+body {
+  width: 100%;
+  height: 100vh;
 }
-.logo{
-    width: 100%;
-    height: 5rem;
-    text-align: center;
+a{
+  color: #253258 !important;
 }
-.logo p{
-    color: #2A2B2E;
-font-size: large;
-font-weight: 900;
-padding-top: 1rem;
-
+.logo {
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+}
+.logo p {
+  color: #2a2b2e;
+  font-size: large;
+  font-weight: 900;
+  padding-top: 1rem;
+}
+.logo a{
+  text-decoration: none;
 }
 /*header*/
-.header{
-    width: 100%;
-    height: 20rem;
-    margin-top: 2.5rem;
-    padding-left: 2rem;
+.header {
+  width: 100%;
+  height: 20rem;
+  margin-top: 2.5rem;
+  padding-left: 2rem;
 }
-.header p{
-    font-size: 2rem;
-    font-weight: 900;
-    margin-bottom: 2rem;
+.header p {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
 }
-.header button{
-width: 10rem;
-height: 5rem;
-background: #2A2B2E;
-border-radius: 5px;
-color: aliceblue;
-font-size: 1rem;
-font-weight: bold;
+.header button {
+  width: 10rem;
+  height: 5rem;
+  background: #2a2b2e;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: bold;
 }
 /*post*/
-.post{
-    width: 100%;
-    height: 30rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    
+.post {
+  width: 100%;
+  height: 30rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
-.post img{
-    width: 80%;
-    box-shadow: 0px 4px 13px 1px rgba(0, 0, 0, 0.25);
+.post img {
+  width: 80%;
+  box-shadow: 0px 4px 13px 1px rgba(0, 0, 0, 0.25);
 }
-.post button{
-width: 9.5rem;
-height: 4rem;
-background: #2A2B2E;
-border-radius: 5px;
-margin-top: 1rem;
-color: aliceblue;
-font-size: large;
-font-weight: bold;
+.post button {
+  width: 9.5rem;
+  height: 4rem;
+  background: #2a2b2e;
+  border-radius: 5px;
+  margin-top: 1rem;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+}
+button:active {
+  background: #ffffff;
+  color: #2a2b2e;
 }
 
+.post-b {
+  width: 100%;
+  height: 30rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.post-b img {
+  opacity: 0.5;
+  color: black;
+  width: 80%;
+  box-shadow: 0px 4px 13px 1px rgba(0, 0, 0, 0.25);
+}
 
+.title {
+  width: 100%;
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+.title p {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+.title hr {
+  background-color: #2a2b2e;
+  width: 45%;
+  opacity: 1 !important;
+}
+.linkForm {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: rgb(78, 97, 136) !important;
+}
 /*footer*/
-.footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 3rem;
-    margin-top: 5rem;
-    border-top: solid 1px #2a2b2e4f;
-    text-align: center;
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  margin-top: 5rem;
+  border-top: solid 1px #2a2b2e4f;
+  text-align: center;
 }
-.footer p{
-    font-size: x-small;
-    padding-top: 1rem;
-    font-weight: bold;
-    color: #2A2B2E;
+.footer p {
+  font-size: x-small;
+  padding-top: 1rem;
+  font-weight: bold;
+  color: #2a2b2e;
+}
+
+.login {
+  text-align: center;
+}
+.login input[type="password"],
+input[type="email"] {
+  width: 15rem !important;
+  height: 2.5rem;
+  border: solid 2px #2a2b2e;
+  border-radius: 5px;
+  text-align: center;
+}
+.login input[type="text"] {
+  width: 10rem !important;
+  height: 2.5rem;
+  border: solid 2px #2a2b2e;
+  border-radius: 5px;
+  text-align: center;
+}
+.login select{
+  width: 10rem !important;
+  height: 2.5rem;
+  border: solid 2px #2a2b2e;
+  border-radius: 5px;
+  text-align: center;
+}
+.login input[type="submit"] {
+  width: 4rem;
+  height: 2rem;
+  background: #2a2b2e;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+}
+.login p{
+    margin-top: 5rem !important;
+}
+.login a{
+  text-decoration: underline !important;
 }
